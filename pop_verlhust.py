@@ -1,9 +1,10 @@
-"""Etude de la population via Verlhust"""
+"""Etude de croissance démographique par le modèle de Verlhust
+                    - Croissance logistique -                 """
 
 #IMPORTS
 
 import numpy as np
-import matplotlib as plt
+import matplotlib.pyplot as plt
 
 #PROGRAMME
 
@@ -12,39 +13,31 @@ import matplotlib as plt
 def f(r, k, N_0, t) :
     return k / (1 + ((k/N_0) - 1) * np.exp(-r * t))
 
-#corps du programme
+#données
 
-N_0 = int(input("Quel est lme nombre initial d'individus ?"))
-if N_0 == 0 :
-    while N_0 == 0 :
-        N_0 = int(input("Vous devez mettre une valeur différent de zéro car sinon, il n'y a aucune évolution démographique quand il n'y a pas d'invidus")
-else :
-    a = int(input("Veillez rentrer le taux de natalité"))
-    b = int(input("Veuillez rentrer le taux de mortalité"))
-    r = a - b
-    t = np.linspace(0, 100, 100)
-    p = int(input("Veuillez taper 1 si vous avez la valeur numérique de la capacité biotique \n ou 2 si vous n'avez que le coefficient de la compétition"))
-    if p == 1 :
-        k = int(input("Veuillez rentrer la valeur numérique de la capacité biotique"))
-    else :
-        c = int(input("veuillez rentrer la valeur de la compétition"))
-        while c == 0 :
-            c = int(input("Veuillez rentrer une valeur autre que zéro s'il vous plaît"))
-        k = r/c
-        
-    z = f(r, k, N_0, t)
+N_0 = int(input("Quel est le nombre initial d'individus ?"))
+coeff_nat = float(input("Veillez rentrer le taux de natalité"))
+coeff_mort = float(input("Veuillez rentrer le taux de mortalité"))
+k = float(input("Veuillez rentrer la valeur numérique de la capacité biotique"))
+r = coeff_nat - coeff_mort
+t = np.linspace(0, 100, 100)
+
+#résolution
+
+z = f(r, k, N_0, t)
 
 #affichages
 
-    plt.plot(t,z, label = "Courbe d'évolution")
-    plt.hist(t)
-    plt.legend()
-    plt.show()
-
-    #points d'équilibres
-    #points de stabilité
-
 print(z)
+plt.plot(t,z, label = f"r={r}, k={k}, N_0={N_0}")
+plt.title("Modèle de Verhulst (croissance logistique)")
+plt.xlabel("Temps")
+plt.ylabel("Population")
+plt.legend()
+plt.show()
+
+
+
 
    
 
