@@ -39,5 +39,7 @@ Après resolution à la main, nous avons la solution suivante, à l'équation di
 
 N(t) = k/(1 + ((k/N_0) -1)exp(_rt)     
 
-
+$$
+\frac{a}{b}
+$$
 
