@@ -37,7 +37,7 @@ avec
 
 Après resolution à la main, nous avons la solution suivante, à l'équation différentielle: 
 
-$$ N(t) = \frac{k}{(1 + (\frac{k}{N_0} -1)exp(-rt)} $$     
+$$ N(t) = \frac{k}{1 + (\frac{k}{N_0} -1)e^(-rt)} $$     
 
-$ \frac{a}{b} $
+
 
