@@ -15,7 +15,7 @@ Ainsi vous pourrez voir la courbe globale de croissance, l'intervalle de temps d
 ## A propos du code
 
 Le code fait usage de deux librairies python : numpy et matplotlib.pyplot 
-L'équation différentielle que génère le modèle logistique est résolue à la main car elle est simple, de la forme << y' = ay + by^2 >> 
+L'équation différentielle que génère le modèle logistique est résolue à la main car elle est simple, de la forme << y' = a y + b $y^2$ >> 
 
 Sur un intervalle de temps allant de 0 à 100 considéré comme jours, semaines, années... selon la mesure de temps ayant fournie le taux de croissance intrinsèque, le programme retourne un longue tableau listant les valeurs à chaque instant t ainsi qu'un graphe de la courbe de croissance globale. 
 
