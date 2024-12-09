@@ -1,4 +1,5 @@
 
+# E
 # Exemple d'application
 
 Supposons qu'on dispose des données suivantes (fictives, mais basées sur des observations réelles) sur la population de poissons dans un lac, où la population a été mesurée sur une période de 10 ans. 
@@ -7,6 +8,7 @@ Supposons qu'on dispose des données suivantes (fictives, mais basées sur des o
 
 
 ## Tableau de données
+![Capture d’écran verlhust_poisson](https://github.com/user-attachments/assets/682064dc-13e6-449c-b956-d1aa6c03db8d)
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
