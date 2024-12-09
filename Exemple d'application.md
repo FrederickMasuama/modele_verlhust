@@ -24,7 +24,7 @@ Voici un code Python qui fait cela en ajustant les paramètres r et K au modèle
 
 
 ## Code Block
-'''python 
+python 
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.optimize import curve_fit'''
+from scipy.optimize import curve_fit
