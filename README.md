@@ -25,7 +25,7 @@ Enfin, pour tester le code, vous aurez besoin, en plus de la capacité biotique,
 
 Le modèle logistique est bâti en partant du modèle de Malthus ainsi on a: 
 
-$$ N'(t) = rN(t)*(1 - \frac{N(t)}{k}) $$
+$$ N'(t) = rN(t)x(1 - \frac{N(t)}{k}) $$
 
 avec 
 * r = taux de croissance intrinsèque = a - b
