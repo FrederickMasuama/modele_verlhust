@@ -1,6 +1,5 @@
 
-# E
-# Exemple d'application
+# Exemple d'application de Verlhust
 
 Supposons qu'on dispose des données suivantes (fictives, mais basées sur des observations réelles) sur la population de poissons dans un lac, où la population a été mesurée sur une période de 10 ans. 
 
