@@ -62,8 +62,7 @@ Le code nous renvoie la courbe suivant:
 
 Et nous avons les paramètres estimés : r = 0.3947, K = 318, P0 = 46
 
-
-## ## explication des resultats et interprétation
+## explication des resultats et interprétation
 
 * Le code a ajusté les paramètres r et K pour minimiser l'erreur entre les données réelles et le modèle logistique. 
 * Le graphique a affiché à la fois les données et la courbe de modèle ajustée, ce qui nous a permis de voir comment le modèle de Verhulst correspond à la dynamique de la population de poissons.
