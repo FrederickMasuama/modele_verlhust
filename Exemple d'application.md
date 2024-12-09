@@ -56,13 +56,15 @@ plt.grid(True)
 plt.show()
 ```
 
-Le cod nous renvoie la courbe suivant: 
+Le code nous renvoie la courbe suivant: 
 
 ![Capture d’écran verlhust_poisson_courbe](https://github.com/user-attachments/assets/735297c4-fa09-4230-a19e-aa056685ad7c)
 
 Et nous avons les paramètres estimés : r = 0.3947, K = 318, P0 = 46
 
-##explication des résultats et interprétations
+
+## ## explication des resultats et interprétation
+
 * Le code a ajusté les paramètres r et K pour minimiser l'erreur entre les données réelles et le modèle logistique. 
 * Le graphique a affiché à la fois les données et la courbe de modèle ajustée, ce qui nous a permis de voir comment le modèle de Verhulst correspond à la dynamique de la population de poissons.
-* Avec r(taux de croissance de la population), k(la capacité maximale d'accueil du lac) et P0(la population initiale des poissons), le modèle logistique nous aide à visionner l'évolution de la population ainsi que les limites de leur environnement, ce qui est utile pour la gestion des ressources naturelles et la prédiction de l'évolution de la population de poissons dans un milieu limité, en l'occurence, ce lac ficyif. 
+* Avec r(taux de croissance de la population), k(la capacité maximale d'accueil du lac) et P0(la population initiale des poissons), le modèle logistique nous aide à visionner l'évolution de la population ainsi que les limites de leur environnement, ce qui est utile pour la gestion des ressources naturelles et la prédiction de l'évolution de la population de poissons dans un milieu limité, en l'occurence, ce lac fictif. 
