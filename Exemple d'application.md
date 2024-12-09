@@ -10,8 +10,6 @@ Supposons qu'on dispose des données suivantes (fictives, mais basées sur des o
 ## Tableau de données
 ![Capture d’écran verlhust_poisson](https://github.com/user-attachments/assets/682064dc-13e6-449c-b956-d1aa6c03db8d)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
 
 ## objectifs
 * Estimer les paramètres r(taux de croissance) et k(capacité biotique) à partir de ces données réelles. 
