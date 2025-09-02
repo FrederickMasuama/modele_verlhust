@@ -1,5 +1,5 @@
 
-# Modèle de verlhust : modèle logistique
+# Modèle de verhulst : modèle logistique
 
 
 Ce projet vise à faire l'étude d'une croissance en utilisant le modèle logistique. 
