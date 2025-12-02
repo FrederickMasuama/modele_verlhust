@@ -5,7 +5,7 @@
 Ce projet vise à faire l'étude d'une croissance en utilisant le modèle logistique. 
 Cette croissance peut être démographique, propagation d'une maladie, adoption d'une technologie, exploitation des ressources naturelles ...
 
-Contrairement au modèle de Malthus qui ne prend en compte aucune contrainte ou perturbation, celui-ci considère les contraintes et perturbations del'environnement encapsulées dans ce que nous appelons "la capacité biotique" : ce qui peut être traduit comme le maximum de croissance que peut tolérer l'environnement. 
+Contrairement au modèle de Malthus qui ne prend en compte aucune contrainte ou perturbation, celui-ci considère les contraintes et perturbations de l'environnement encapsulées dans ce que nous appelons "la capacité biotique" : ce qui peut être traduit comme le maximum de croissance que peut tolérer l'environnement. 
 
 Ainsi vous pourrez voir la courbe globale de croissance, l'intervalle de temps dans lequel la croissance commence à ralentir et celui dont elle devient statique. 
 
